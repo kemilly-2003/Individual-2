@@ -1,0 +1,188 @@
+body{
+  background-color: pink
+}
+     
+  header{ 
+  width:5px ;
+  height: 7px ;
+  text-align:center; 
+  padding:2%; 
+  margin:0 auto; 
+  border-radius: 0 0 70px 70px; 
+  border: 3px solid blanchedalmond; 
+  border-top: none; 
+  } 
+     
+  h1{ 
+  font-size: 30px; 
+  text-align: center;
+  color: aliceblue;
+  } 
+     
+    main{ 
+   display: flex; 
+   flex-wrap: wrap; 
+   justify-content: center; 
+   align-items: center; 
+   margin-bottom: 20px; 
+    } 
+  .display1{ 
+   margin: 20px auto; 
+   padding: 2%; 
+   height: 50%; 
+   width:50%; 
+   text-align:center; 
+   color:pink;
+   background-color: gray;
+   background: gray;
+   font-size: larger; 
+   border-radius:80px; 
+   border:5px solid gainsboro;
+
+    } 
+     
+    h2{ 
+    margin: 14px; 
+    } 
+     
+    #mensagem{ 
+   padding:18px; 
+   margin:17px; 
+   font-family:'Share Tech',sans-serif; 
+   font-size:medium; 
+   width:200px; 
+    } 
+     
+    #select{ 
+    font-family:'Share Tech',sans-serif; 
+    padding:18px; 
+    font-size:medium; 
+    margin:17px; 
+    width:250px; 
+    } 
+     
+  .incremento{ 
+   margin:10px; 
+   display:none; 
+    } 
+     
+    #numeroCesar{ 
+   margin:0 auto; 
+   padding: 15px; 
+   width:70px; 
+   font-size:medium; 
+   text-align:center; 
+   font-style:'Share Tech',sans-serif; 
+   display:none; 
+    } 
+     
+    .radio{ 
+   display:flex; 
+   align-items:center; 
+   justify-content:center; 
+   margin:10px auto; 
+   text-align:left; 
+   width:180px; 
+     
+    } 
+     
+    #codificar,#decodificar{ 
+   margin:18px; 
+
+    } 
+     
+    #submit{ 
+    margin:20px; 
+    padding: 1%; 
+    font-family: 'Share Tech', sans-serif; 
+    font-size:large; 
+    height:50px; 
+    width:200px; 
+    border:3px solid gray; 
+    border-radius:20px; 
+    transition:0.5s; 
+    } 
+     
+    #submit:hover{ 
+   transform:scale(1.2); 
+   background-color:beige
+    } 
+     
+    .hMensagem{ 
+   margin:20px; 
+    } 
+  
+    .footerContainer{ 
+    color:pink;
+    background-color:beige;
+    text-align:center; 
+    font-family:'Share Tech', sans-serif;
+    margin:16px auto; 
+    padding:0.5%; 
+    width:400px; 
+    } 
+     
+    .footerContainer a{ 
+    text-decoration:none; 
+    color:palevioletred
+     
+    } 
+     
+    .footerContainer a:hover{ 
+     color:gainsboro
+    } 
+     
+    @media(max-width:806px){ 
+   header{ 
+  padding:60px; 
+   } 
+    .display1{ 
+   padding:55px; 
+    } 
+    } 
+     
+    @media(max-width:600px){ 
+    header{ 
+    width:400px; 
+   } 
+     
+   .display1e2{ 
+   width:400px; 
+    } 
+    
+     
+    @media(max-width:400px){ 
+   header{ 
+   padding:50px; 
+  width:270px; 
+    } 
+     
+  h1{ 
+   font-size:large; 
+   } 
+     
+    .display1{ 
+   width: 220px; 
+  }
+     
+   #mensagem{ 
+   width: 150px; 
+   margin: 15px auto; 
+  } 
+     
+    select{ 
+    width: 150px; 
+    margin:15px auto; 
+    font-size:small; 
+    } 
+     
+    #submit{ 
+   width:150px; 
+   margin:16px auto; 
+   font-size:medium; 
+  } 
+     
+   .footerContainer{ 
+   width:190px; 
+  } 
+  

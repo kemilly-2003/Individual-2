@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cifra de César e Base64</h1>
+    <main> 
+        <div class="display1"> 
+        <br> 
+        <form> 
+        <label for="mensagem">Mensagem abaixo:</label><br> 
+        <input type="text"name="mensagem"id="mensagem"placeholder="mensagem">
+        <br> 
+         
+        <label>Selecione  a decodificação</label>
+        <br> 
+         
+        <select id="select"> 
+        <option value="">Selecione</option> 
+        <option value="Base64">Base64</option> 
+        <option value="cifraCesar">Cifra de César</option> 
+        </select> 
+         
+         
+        <label for="numerodeCesar" class="incremento">Digite o incremento utilizado na cifra</label> 
+        <br> 
+         
+         
+        <div class="radio"> 
+        <input type="radio"id="codificar"name="codDecod"value="codificar"checked> 
+        <label for="codificar">Codificar</label><br> 
+         
+        <input type="radio"id="decodificar"name="codDecod"value="decodificar"> 
+        <label for="decodificar">Decodificar</label> 
+        </div> 
+
+         
+        <div class=""> 
+        <h2 class="hMensagem"></h2><br>
+            <p class="Mensagem"></p> 
+        </div> 
+         
+    <input type="submit" value="Codificar Mensagem!" id="submit"> 
+    </form> 
+    
+         
+    </div> 
+    </main> 
+    <footer> 
+    </footer> 
+    <script src="./JS/index.js"></script> 
+        </body> 
+        </html>
+</body>
+</html>
